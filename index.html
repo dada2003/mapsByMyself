@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>maps by myself</title>
+</head>
+<body>
+<div id="floating-panel">
+    <b>Start: </b>
+    <select id="start">
+        <option value="Одесса">Одесса</option>
+        <option value="Харьков">Харьков</option>
+        <option value="киев">киев</option>
+        <option value="бердичев">бердичев</option>
+        <option value="копенгаген">копенгаген</option>
+
+    </select>
+    <b>End: </b>
+    <select id="end">
+        <option value="одесса">Одесса</option>
+        <option value="харьков">Харьков</option>
+        <option value="киев">киев</option>
+        <option value="бердичев">бердичев</option>
+        <option value="копенгаген">копенгаген</option>
+    </select>
+
+</div>
+<div id="map"></div>
+<div id="map2"></div>
+<div id="map3"></div>
+<!--<div id="player">-->
+<!--<iframe width="560" height="315" src="https://www.youtube.com/embed/QCN6XX1M7CY" frameborder="0" allowfullscreen></iframe>-->
+<!--</div>-->
+
+
+
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBclPz8xtvfyGF9IOEwUrxJqyHuqrZPVFU&callback=initMap"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
